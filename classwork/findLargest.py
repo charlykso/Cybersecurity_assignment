@@ -11,9 +11,9 @@ def main():
     y = argv[2]
     z = argv[3]
     largest = z
-    if x > y:
+    if x > largest:
         largest = x
-    elif y > z:
+    elif y > largest:
         largest = y
     print(f"The largest number is {largest}")
 
