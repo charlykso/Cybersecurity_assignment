@@ -1,7 +1,9 @@
 import datetime
+import uuid
 
 class User:
     def __init__(self, firstname, lastname, email, password) -> None:
+        self.id = uuid.uuid4()
         self.firstname = firstname
         self.lastname = lastname
         self.email = email
